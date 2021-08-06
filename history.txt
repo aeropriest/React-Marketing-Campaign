@@ -33,4 +33,6 @@
   583  git add .
   584  git status
   585  history
-ls
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  brew tap heroku/brew && brew install heroku
+  brew tap heroku/brew && brew install heroku
