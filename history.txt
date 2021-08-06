@@ -1,0 +1,36 @@
+551  git clone https://github.com/aeropriest/React-Marketing-Campaign.git
+  552  cd React-Marketing-Campaign/
+  553  ls -l
+  554  pwd
+  555  ls -l
+  556  mkdir server
+  557  cd server/
+  558  npm init
+  559  ls -l
+  560  npm install --save express
+  561  cat package.json 
+  562  git status
+  563  cd ..
+  564  ls -l
+  565  git status
+  566  cd server
+  567  ls -l
+  568  cd ..
+  569  ls -l
+  570  git add server/
+  571  git status
+  572  git reset ~HEAD
+  573  git reset HEAD~
+  574  git reset
+  575  git status
+  576  pwd
+  577  touch .gitignore
+  578  ls
+  579  cat .gitignore 
+  580  touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
+  581  cat .gitignore 
+  582  git status
+  583  git add .
+  584  git status
+  585  history
+ls
