@@ -53,3 +53,8 @@ npm install --save mongoose
   https://account.mongodb.com/account/loginnpm install --save cookie-session
 
 npm install --save cookie-session
+npm install --save materialize-css
+npm install --save axios redux-thunk
+npm install --save 
+
+npm run dev
