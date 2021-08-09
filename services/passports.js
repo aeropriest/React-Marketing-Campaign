@@ -10,10 +10,10 @@ passport.serializeUser((user, done) =>{
     done(null, user.id);
 });
 
-passport.deserializeUser((id, done)=>{
+passport.deserializeUser((ClientId, done)=>{
     //pull out the user from mongoDb
-    console.log('deserialize user id  '+id);
-    User.findById(id)
+    console.log('deserialize user id  '+ClientId);
+    User.findById(ClientId)
     .then(user => {
         if( user ){
             console.log('found the user id '+ user);
