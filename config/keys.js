@@ -13,4 +13,7 @@ module.exports = {
     mongoURI: 'mongodb+srv://dbUser:123dbUser123@reactmarketingcampaign.ga76a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     cookieKey: 'sdfsfsadawd'
 }
+
+STRIPE PUBLIC : pk_test_51JMvYrCYAFDOk6O8BjHidVKs6bTa6xErOOI0V9Ou9MZNlz1nH6dC0wG1oWWTWx3HQPujs9BU6OmPJ6JcWnUiVI7y00AwjoqSsz
+SECRET: sk_test_51JMvYrCYAFDOk6O8ZSFG7ycSxc0y1JoypHWSQ7MUhYJgyC5SdJpnzBrCXe6yQLmapl4PEnYRwkYFv2x6s7YPM8JE00DNndrBF1
 */
