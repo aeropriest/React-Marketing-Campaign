@@ -10,27 +10,22 @@ passport.serializeUser((user, done) =>{
     done(null, user.id);
 });
 
-passport.deserializeUser((ClientId, done)=>{
+passport.deserializeUser((id, done)=>{
     //pull out the user from mongoDb
     console.log('deserialize user id  '+ClientId);
-    User.findById(ClientId)
+    User.findById(id)
     .then(user => {
-        if( user ){
-            console.log('found the user id '+ user);
-        }else{
-            console.log('did not find the user id '+ user);
-        }
-
         done(null, user);
     })
 });
 
 
-passport.use(new GoogleStrategy({
-    clientID: keys.googleClientID,
-    clientSecret: keys.googleClientSecret,
-    callbackURL: '/auth/google/callback',
-    proxy: true
+passport.use(new GoogleStrategy(
+    {
+        clientID: keys.googleClientID,
+        clientSecret: keys.googleClientSecret,
+        callbackURL: '/auth/google/callback',
+        proxy: true
     },
 
     
