@@ -41,6 +41,8 @@
 
   heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#latest -a marketing-campaign-udemy
 
+heroko login
+
   git push heroku main:main  
 
   heroku open
